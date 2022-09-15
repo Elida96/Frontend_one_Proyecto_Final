@@ -31,7 +31,7 @@ main section{
     align-items: center;
   
 }
-main section article.article_top{
+main section .article_top{
     margin-top: 150px;
     display: flex;
     flex-direction:column;
@@ -71,9 +71,6 @@ main section.introduccion{
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-main section article.article_one{
-
 }
 main section article.article_one h2{
     text-align: center;
@@ -305,4 +302,175 @@ footer .copyright{
     padding-bottom: 40px;
     font-size: 12px;
     text-align: center;
+}
+@media(min-width:769px){
+    header{
+        align-items: center;
+        padding-top: 45px;
+    }
+    header img{
+        margin-top:0px;
+    }
+    header i.fa-solid{
+        display: none;
+    }
+    header ul{
+      display: flex;  
+    }
+    header ul  li{
+        list-style: none;
+        margin-right: 20px;
+    }
+    header ul  li a{
+        text-decoration: none;
+        color: #242E52;
+        font-size: 13px; 
+    }
+
+    header button{
+        display: flex;
+        background-color: #8B48BF;
+        padding: 11px 10px;
+        width: 130px;
+        border: 1px solid white;
+        border-radius: 50vh;
+        color: #FFFFFF;
+       justify-content: center;
+    }
+    main section{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        margin-top:50px;
+        justify-content:center;
+        padding: 0px 16px;
+    }
+    main section .article_top,
+    main section .article_bottom{
+        width: 48%;
+    }
+    main section .article_top{
+        margin-top: 0px;
+        font-weight: 700;
+        align-items: flex-start;
+    }
+    main section article.article_top h1{
+        margin-top: 0px;
+        margin-left: 0px;
+        font-weight: 700;
+        text-align:left;
+        max-width: 468px; 
+        font-size:44px;
+    }
+    main section article.article_top p{
+        margin: 15px 0px;
+        text-align:left;
+        font-weight: 500; 
+    }
+    main section article.article_top button{
+        margin-left: 0px;
+    }
+    main section.introduccion{
+        flex-direction: row;
+        align-items: flex-start;
+    }
+    main section.introduccion .article_one,
+    main section article.article_two{
+        width: 48%;
+        
+    }
+    main section.introduccion .article_one h2{
+        margin:0px 15px 15px 0px;
+        text-align:left;
+
+    }
+    main section.introduccion .article_one p{
+        text-align:left;
+        margin: 30px  34px 0px 0px;  
+    }
+    main section article.article_two div.div_p div{
+        background-color: white;
+        border-radius: 0px;
+    }
+    main section article.article_two p.texto{
+        margin: 15px 5px 31px 100px;
+    }
+    main section.description{
+        flex-direction:row;
+    }
+    main section.description article:nth-child(1),
+    main section.description article:nth-child(3){
+        display: flex;
+    }
+    main section article.description_one{
+        min-width: 30%;
+    }
+    footer section.footer_top{
+        flex-direction:row;
+        width: 100%;
+        padding: 60px 66px;
+        justify-content: space-around;
+    }
+    footer section.footer_top h2{
+        text-align: left;
+        font-size: 36px;
+        max-width: 470px;
+        padding: 0px 20px;
+    }
+    footer section.footer_top button{
+        margin-bottom:0px;
+    }
+    footer section.footer_bottom{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        padding: 20px 0px 0px 0px;
+    }
+    footer section.footer_bottom article.footer_logos{
+        width: 25%;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 0px;
+        height: 161px;
+    }
+    footer .footer_logos img{
+        margin-top: 13px;
+    }
+    footer .footer_logos .logos{
+        justify-content: space-evenly;
+        height: 31px;
+        margin-bottom:0px;
+        justify-content:flex-start;
+    }
+    footer .footer_logos .logos a{
+        margin-right:17px;
+    }
+    footer .footer_logos .logos a i{
+        font-size: 15px;
+    }
+    footer section.footer_bottom article.article-center{
+        width: 30%;
+        margin-bottom: 0px;
+    }
+    footer section.footer_bottom article.article_form{
+        width: 33%;
+    }
+    footer section.footer_bottom form{
+        width: 90%;
+    }
+    footer section.footer_bottom form input{
+        min-width:191px
+    }
+    footer section.footer_bottom form button{
+        min-width:50px;
+    }
+    footer .copyright{
+        padding-bottom: 20px;
+    }
+}
+
+@media(min-width:1000px){
+    main section article.article_bottom img{
+        width:80%;
+    }
 }
