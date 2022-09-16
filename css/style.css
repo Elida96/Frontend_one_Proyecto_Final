@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100;400;700&display=swap');
 *{
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
     font-family: 'Be Vietnam Pro', sans-serif;
+    margin: 0;
+    padding: 0;  
 }
 body{
     width: 100vw;
@@ -26,39 +26,38 @@ header i{
     font-size:  50px;
 }
 main section{
+    align-items: center;
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
-  
 }
 main section .article_top{
-    margin-top: 150px;
+    align-items: center;
     display: flex;
     flex-direction:column;
-    align-items: center;
+    margin-top: 150px; 
 }
 main section article.article_top h1{
-    text-align: center;
     font-size:  51px;
-    color: #232C50;
     font-weight: 900;
+    color: #232C50;
     margin: 15px;
+    text-align: center;  
 }
 main section article.article_top p{
-    margin:  15px 50px;
-    text-align: center;
-    font-size:  16px;
     color: #000000;
     font-weight: 600;
+    font-size:  16px;
+    margin:  15px 50px;
+    text-align: center;
     white-space: pre-line;
 }
 main section article.article_top button{
     background-color: #8B48BF;
-    padding:11px 10px;
-    width: 130px;
     border: 1px solid white;
     border-radius:50vh;
     color:#FFFFFF;
+    padding:11px 10px;
+    width: 130px;
 }
 main section article.article_bottom {
     display: flex;
@@ -68,23 +67,23 @@ main section article.article_bottom img{
     width: 90%;
 }
 main section.introduccion{
-    display: flex;
-    flex-direction: column;
     align-items: center;
+    display: flex;
+    flex-direction: column;  
 }
 main section article.article_one h2{
-    text-align: center;
-    font-size:  36px;
     color: #232C50;
+    font-size:  36px;
     font-weight: 900;
     margin: 110px 15px 15px 15px;
+    text-align: center; 
 }
 main section article.article_one p{
+    color: #000000;
+    font-size:  16px; 
+    font-weight: 500;
     margin:  30px 32px;
     text-align: center;
-    font-size:  16px;
-    color: #000000;
-    font-weight: 500;
     white-space: pre-line;
 }
 main section article.article_two{
@@ -97,44 +96,43 @@ main section article.article_two div.div_p{
 
 }
 main section article.article_two div.div_p div{
-    display:flex;
-    align-items: center;
+    align-items: center; 
     background-color: #8B48BF4D;
-    margin-left: 19px;
+    display:flex;
     border: none 1px #8B48BF4D;
     border-radius:19px 0px 0px 19px;
-    
+    margin-left: 19px;   
 }
-main section article.article_two p.numero{
+main section article.article_two p.numero{  
     background-color: #8B48BF;
-    padding:9px 10px;
-    width: 65px;
     border: 1px solid white;
     border-radius:50vh;
     color:#FFFFFF;
+    padding:9px 10px; 
     text-align: center;
     font-size:  16px;
     font-weight:  700px;
+    width: 65px;
 }
 
 main section article.article_two h3{
-    padding: 7px 23px;
     font-size: 16px;
     font-weight: 600;
+    padding: 7px 23px;  
 }
 main section article.article_two p.texto{
-    color:#B3B2B7;
     align-items: center;
+    color:#B3B2B7;
     font-size:  16px;
     font-weight: 500;
-    white-space: pre-line;
     margin: 31px 32px;
+    white-space: pre-line;   
 }
 main h2.h2{
-    text-align: center;
-    font-size:  39px;
     color: #232C50;
+    font-size:  39px;  
     font-weight: 900;
+    text-align: center; 
     margin: 78px 15px 15px 15px;
 }
 main section.description{
@@ -143,30 +141,29 @@ main section.description{
    
 }
 main section article.description_one{
-    flex-direction: column;
-    display: flex;
     align-items: center;
-    padding: 30px 20px 20px 20px;
     background-color: #FAFAFA;
+    display: flex;
+    flex-direction: column;
     margin: 40px 20px;
+    padding: 30px 20px 20px 20px;
     position: relative;
 }
 main section article.description_one img{
-    width: 86px;
     position: absolute;
     top: -45px;
-   
+    width: 86px;  
 }
 main section article.description_one h4{
     color: #3F4868;
     margin: 30px;
 }
 main section article.description_one p{
+    color:#B9B9C1;
+    font-size: 16px;  
+    font-weight: 400;
     margin: 30px 10px;
     text-align: center;
-    font-size: 16px;
-    color:#B9B9C1;
-    font-weight: 400;
     white-space: break-spaces;
 }
 main section.description article:nth-child(1),
@@ -174,93 +171,94 @@ main section.description article:nth-child(3){
     display: none;
 }
 main .div_button {
-    display:flex;
-    justify-content:center;
-    align-items:center;
+    align-items:center; 
+    display:flex;  
+    justify-content:center;  
 }
 main .div_button button{
     background-color: #8B48BF;
-    padding: 11px 10px;
-    width: 130px;
     border: 1px solid white;
     border-radius: 50vh;
     color: #FFFFFF;
-    
+    cursor: pointer;
+    padding: 11px 10px;
+    width: 130px;
 }
 footer{
     display: flex;
     flex-direction: column;
-    width: 100%;
     margin-top: 75px;
+    position: relative;
+    width: 100%;
 }
 footer section.footer_top{
-    display: flex;
-    flex-direction: column;
     align-items: center;
     background-color:#8B48BF;
-    
+    display: flex;
+    flex-direction: column;  
 }
 footer section.footer_top h2{
-    text-align: center;
-    font-size:  40px;
     color:#FFFFFF;
+    font-size:  40px; 
     font-weight: 700;
     margin: 57px 15px 57px 15px;  
     padding: 0px 40px;
+    text-align: center;
 }
 footer section.footer_top button{
     background-color: #FFFFFF;
-    padding: 11px 10px;
-    width: 130px;
     border: 1px solid white;
     border-radius: 50vh;
     color: #8B48BF; 
     margin-bottom: 57px;
+    padding: 11px 10px;
+    width: 130px; 
 }
 footer section.footer_bottom{
+    align-items: center;
+    background-color:#1E1E26;
     display: flex;
     flex-direction: column-reverse;
-    align-items: center;
-    background-color:#1E1E26;   
+    padding-bottom: 35px;   
 }
 footer section.footer_bottom article.article_form{
-    width: 100%;
-    height: 45px;
     display: flex;
     justify-content: center;
+    height: 45px;
     margin: 50px 0px;
+    width: 100%;  
 }
 footer section.footer_bottom form{
-    width: 80%;
+    align-items: center;
     display: flex;
     justify-content: center;
-    align-items: center;
+    width: 80%;
 
 }
 footer section.footer_bottom form input{
-    width: 95%;
     background-color: #FFFFFF;
-    padding: 11px 10px;
     border: 1px solid white;
     border-radius: 50vh;
     color: #A0A0A0;
     font-size: 13px;
     font-weight: 600;
+    padding: 11px 10px;
+    width: 95%;
 }
 footer section.footer_bottom form button{
     background-color: #8B48BF ;
-     padding: 11px 1px;
-    width: 79px;
     border: 1px solid #8B48BF ;
     border-radius: 50vh;
     color:#FFFFFF; 
     margin-left: 7px;
+    padding: 11px 1px;
+    width: 79px;   
 }
 footer section.footer_bottom article{
     display:flex;
     justify-content: space-between;
-    width: 70%;
     margin-bottom: 30px;
+    width: 70%;  
 }
 footer section.footer_bottom article .home{
     display: flex;
@@ -272,22 +270,23 @@ footer section.footer_bottom article .home ul li{
     padding:10px 0px;
 }
 footer section.footer_bottom article .home ul li a{
-    text-decoration: none;
     color: white;
+    text-decoration: none;
+    
 }
 footer section.footer_bottom article.footer_logos{
-    display:flex;
     align-items: center;
+    display:flex;
     flex-direction: column-reverse;
     width: 100%;
 }
 
 footer .footer_logos .logos{
-    width: 80%;
     display: flex;
     justify-content: space-between;
-    margin: 30px 0px;
     padding-bottom: 20px;
+    margin: 30px 0px;
+    width: 80%;
 }
 
 footer .footer_logos .logos a i{
@@ -296,11 +295,13 @@ footer .footer_logos .logos a i{
 }
 
 footer .copyright{
-    color: #8C8C94;
     background-color: #1E1E26;
-    padding-left: 20px;
-    padding-bottom: 40px;
+    bottom: 0px;
+    color: #8C8C94;
     font-size: 12px;
+    position: absolute;
+    padding-top: 20px;
+    padding-bottom: 25px;
     text-align: center;
 }
 @media(min-width:769px){
@@ -310,6 +311,14 @@ footer .copyright{
     }
     header img{
         margin-top:0px;
+        animation-name:imagen;
+        animation-duration:3s;
+        animation-iteration-count: 2;
+    }
+    @keyframes imagen{
+        0%{width:145px}
+        50%{width:160px}
+        100%{width:145px}
     }
     header i.fa-solid{
         display: none;
@@ -318,61 +327,75 @@ footer .copyright{
       display: flex;  
     }
     header ul  li{
+        cursor: pointer;
         list-style: none;
         margin-right: 20px;
+        transition: all 3s;
+    }
+    header ul  li:hover{
+        background-color:#8B48BF;
     }
     header ul  li a{
-        text-decoration: none;
         color: #242E52;
         font-size: 13px; 
+        text-decoration: none; 
     }
 
     header button{
-        display: flex;
         background-color: #8B48BF;
-        padding: 11px 10px;
-        width: 130px;
         border: 1px solid white;
         border-radius: 50vh;
         color: #FFFFFF;
-       justify-content: center;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        padding: 11px 10px;
+        width: 130px; 
+        transition: all 2s;
+    }
+    button.button-transition:hover{
+        background-color: #FFFFFF; 
+        color: #8B48BF; 
     }
     main section{
         display: flex;
         flex-direction: row;
-        width: 100%;
-        margin-top:50px;
         justify-content:center;
+        margin-top:50px;
         padding: 0px 16px;
+        width: 100%;
     }
     main section .article_top,
     main section .article_bottom{
         width: 48%;
     }
     main section .article_top{
-        margin-top: 0px;
-        font-weight: 700;
         align-items: flex-start;
+        font-weight: 700;
+        margin-top: 0px; 
     }
     main section article.article_top h1{
+        font-size:44px;
+        font-weight: 700;
         margin-top: 0px;
         margin-left: 0px;
-        font-weight: 700;
-        text-align:left;
         max-width: 468px; 
-        font-size:44px;
+        text-align:left;  
     }
     main section article.article_top p{
         margin: 15px 0px;
-        text-align:left;
         font-weight: 500; 
+        text-align:left;
+        
     }
     main section article.article_top button{
-        margin-left: 0px;
+        cursor: pointer;
+        margin-left: 0px; 
+        transition: all 2s;
     }
     main section.introduccion{
-        flex-direction: row;
         align-items: flex-start;
+        flex-direction: row;  
     }
     main section.introduccion .article_one,
     main section article.article_two{
@@ -385,8 +408,8 @@ footer .copyright{
 
     }
     main section.introduccion .article_one p{
-        text-align:left;
-        margin: 30px  34px 0px 0px;  
+        margin: 30px  34px 0px 0px; 
+        text-align:left;        
     }
     main section article.article_two div.div_p div{
         background-color: white;
@@ -403,44 +426,58 @@ footer .copyright{
         display: flex;
     }
     main section article.description_one{
-        min-width: 30%;
+        margin: 40px 0px; 
+        min-width: 25%;
+        transition: all 5s;
     }
+    .description_one:hover{
+        background-color: #bab7b7;
+    }
+    main section article.description_one p{
+        margin: 20px 10px 5px 10px;
+        min-height: 150px;  
+    }   
     footer section.footer_top{
         flex-direction:row;
-        width: 100%;
-        padding: 60px 66px;
         justify-content: space-around;
+        padding: 60px 66px;
+        transition: all 5s;
+        width: 100%;  
+    }
+    .footer_top:hover{
+        background-color:#cb9dee;
     }
     footer section.footer_top h2{
-        text-align: left;
         font-size: 36px;
         max-width: 470px;
         padding: 0px 20px;
+        text-align: left;   
     }
     footer section.footer_top button{
-        margin-bottom:0px;
+        cursor: pointer;
+        margin-bottom:0px; 
     }
     footer section.footer_bottom{
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-        padding: 20px 0px 0px 0px;
+        padding: 0px 20px 20px 20px;
     }
     footer section.footer_bottom article.footer_logos{
-        width: 25%;
-        flex-direction: column;
         align-items: flex-start;
-        margin-bottom: 0px;
+        flex-direction: column;
         height: 161px;
+        margin-bottom: 0px; 
+        width: 25%;
     }
     footer .footer_logos img{
         margin-top: 13px;
     }
     footer .footer_logos .logos{
-        justify-content: space-evenly;
         height: 31px;
-        margin-bottom:0px;
+        justify-content: space-evenly;
         justify-content:flex-start;
+        margin-bottom:0px;
     }
     footer .footer_logos .logos a{
         margin-right:17px;
@@ -449,10 +486,14 @@ footer .copyright{
         font-size: 15px;
     }
     footer section.footer_bottom article.article-center{
-        width: 30%;
         margin-bottom: 0px;
+        width: 30%;  
     }
     footer section.footer_bottom article.article_form{
+        align-items: flex-end;
+        height: 153px;
+        flex-direction: column;
+        justify-content: space-between;
         width: 33%;
     }
     footer section.footer_bottom form{
@@ -462,15 +503,68 @@ footer .copyright{
         min-width:191px
     }
     footer section.footer_bottom form button{
-        min-width:50px;
+        cursor: pointer;
+        min-width:50px; 
+        transition: all 2s;
     }
     footer .copyright{
-        padding-bottom: 20px;
+        padding-bottom: 0px;
+        position:static;
+    
     }
 }
 
 @media(min-width:1000px){
+    header{
+        margin: 0px auto;
+        max-width: 1210px;
+    }
+    header ul  li a{
+        font-size:20px;
+    }
+    main{
+        align-content: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+       
+    }
+    main section.section-top{
+        margin: 100px auto;
+        max-width: 1100px; 
+    }
+    main section.introduccion{
+        margin: 0px auto;
+        max-width: 1100px;
+    }
     main section article.article_bottom img{
         width:80%;
+    }
+    main section.description{
+        margin: 50px auto 0px auto;
+        max-width: 1400px;  
+    }
+    main section article.description_one{
+        min-width: 20%;
+         /* margin: 40px 0px; */
+        max-width:30%;  
+    }
+    main section article.description_one p{
+        margin: 20px 10px 0px 10px;
+        min-height: 110px;
+    }
+    footer section.footer_bottom{
+        padding: 3% 12%;
+    }
+    footer section.footer_bottom form{
+        justify-content:flex-end;
+    }
+    footer section.footer_bottom form input{
+        max-width: 191px;
+    }
+}
+@media(min-width:1400px){
+    footer section.footer_bottom{
+        padding: 3% 15%;
     }
 }
